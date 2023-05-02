@@ -1,134 +1,134 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-size: 16px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #fff;
-    color: #000;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #fff;
+  color: #000;
 }
 
 #main {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0px;
 }
 
 .nav {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .nav ul li {
-    display: inline;
+  display: inline;
 }
 
 .nav ul li a {
-    color: #464646;
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 1px solid #464646;
+  color: #464646;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #464646;
 }
 
 .nav ul li a:hover {
-    background-color: #464646;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 1px solid #464646;
-    transition: 0.5s;
+  background-color: #464646;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #464646;
+  transition: 0.5s;
 }
 
 .nav ul li.active a {
-    background-color: #464646;
-    color: #fff !important;
-    padding: 10px 20px;
-    text-decoration: none;
-    border: 1px solid #464646;
+  background-color: #464646;
+  color: #fff !important;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px solid #464646;
 }
 
 .producs {
-    width: 50%;
-    margin: 0 auto;
-    justify-self: center;
-    align-self: center;
+  width: 50%;
+  margin: 0 auto;
+  justify-self: center;
+  align-self: center;
 }
 
 .producs h3 {
-    margin-top: 30px;
-    text-align: center;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .producs ul {
-    margin-top: 30px;
-    list-style-type: none;
+  margin-top: 30px;
+  list-style-type: none;
 }
 
 .producs ul li {
-    font-size: 21px;
-    text-align: center;
-    padding: 5px 0;
+  font-size: 21px;
+  text-align: center;
+  padding: 5px 0;
 }
 
 .aboutus {
-    width: 50%;
-    margin: 0 auto;
-    padding: 50px 0;
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
 .aboutus p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 footer {
-    width: 100%;
-    padding: 15px 0;
-    text-align: center;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
 }
 
 .product_list {
-    height: 100%;
-    margin-bottom: 30px;
+  height: 100%;
+  margin-bottom: 30px;
 }
 
 .product_list .guitars .guitars_info,
 .product_list .drums .drums_info {
-    display: inline-block;
-    width: 250px;
-    text-align: center;
-    margin-right: 50px;
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  margin-right: 50px;
 }
 
 .product_list .guitars,
 .product_list .drums {
-    text-align: center;
+  text-align: center;
 }
 
 .product_list .guitars .guitars_info img,
 .product_list .guitars .guitars_info p,
 .product_list .drums .drums_info img,
 .product_list .drums .drums_info p {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .product_list .guitars .guitars_info img,
 .product_list .drums .drums_info img {
-    width: 100%;
+  width: 100%;
 }
